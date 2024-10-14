@@ -1,0 +1,12 @@
+
+new ownershipChannel, resourceChannel in {
+  // Ownership is transferred via ownershipChannel, which is linear
+  for (@newOwner <- ownershipChannel) {
+    // Send the resource channel to the new owner
+    newOwner!(resourceChannel) |
+    // Disable further usage of ownershipChannel, ensuring it's linear
+    ownershipChannel!(Nil)
+  } |
+  // The initial owner sends the transfer request
+  ownershipChannel!(*someNewOwnerProcess)
+}

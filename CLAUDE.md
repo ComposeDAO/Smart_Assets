@@ -29,9 +29,16 @@ Documentation and reference code for the following smart contract languages:
 - **src/** - Reference implementations (if present)
 
 ## Commands
+
+### Git Interaction
+
+See [Git Interaction Policy](https://gitlab.com/smart-assets.io/gitlab-profile/-/blob/master/docs/common/git-interaction-policy.md) for complete git command restrictions and YOLO mode details.
+
+**Summary for this project:**
 - This is primarily a documentation repository
-- DO NOT ever `git add`, `git rm` or `git commit` code. Allow the Claude user to always manually review git changes. `git mv` is permitted and inform the developer.
-- **Operating outside of local repository (with .git/ directory root)**: Not permitted and any file or other operations require user approval and notification
+- DO NOT ever `git add`, `git rm` or `git commit` code
+- `git mv` is permitted with user confirmation
+- YOLO mode exceptions apply in git worktrees
 
 ## Code Style
 - When adding reference implementations:
@@ -61,11 +68,29 @@ Documentation and reference code for the following smart contract languages:
   - Educational materials
   - Cross-platform implementation patterns
 
+## Testing
+
+See [Testing Guidelines](https://gitlab.com/smart-assets.io/gitlab-profile/-/blob/master/docs/common/testing-guidelines.md) for comprehensive testing approach.
+
+**Project-specific approach:**
+- This is primarily a documentation repository with reference code
+- Reference implementations should include example tests demonstrating:
+  - Testing patterns for each blockchain platform
+  - Security testing for purse/wallet implementations
+  - Channel encapsulation verification
+- Test coverage targets apply to any reference code (90%+)
+- Example tests serve as educational material
+
 ## Security Considerations
+
+See [Security Best Practices](https://gitlab.com/smart-assets.io/gitlab-profile/-/blob/master/docs/common/security-best-practices.md) for comprehensive security guidelines.
+
+**Project-specific considerations:**
 - Document security patterns for purse implementations
 - Highlight channel encapsulation security benefits
 - Explain linear type system advantages for asset management
 - Never commit secrets or private keys in example code
+- Follow smart contract security best practices for each language (Solidity, Move, Rholang, Rust)
 
 ## Related Projects
 - GitLab: https://gitlab.com/smart-assets.io/ (active development)

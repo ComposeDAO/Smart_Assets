@@ -32,7 +32,11 @@ Documentation and reference code for the following smart contract languages:
 
 ### Git Interaction
 
-See [Git Interaction Policy](https://gitlab.com/smart-assets.io/gitlab-profile/-/blob/master/docs/common/git-interaction-policy.md) for complete git command restrictions and YOLO mode details.
+**For LLM assistance in multi-repo workspace:**
+See [Git Interaction Policy](../top-level-gitlab-profile/docs/common/git-interaction-policy.md)
+
+**For reference (GitLab):**
+[Git Interaction Policy](https://gitlab.com/smart-assets.io/gitlab-profile/-/blob/master/docs/common/git-interaction-policy.md)
 
 **Summary for this project:**
 - This is primarily a documentation repository
@@ -70,7 +74,11 @@ See [Git Interaction Policy](https://gitlab.com/smart-assets.io/gitlab-profile/-
 
 ## Testing
 
-See [Testing Guidelines](https://gitlab.com/smart-assets.io/gitlab-profile/-/blob/master/docs/common/testing-guidelines.md) for comprehensive testing approach.
+**For LLM assistance in multi-repo workspace:**
+See [Testing Guidelines](../top-level-gitlab-profile/docs/common/testing-guidelines.md)
+
+**For reference (GitLab):**
+[Testing Guidelines](https://gitlab.com/smart-assets.io/gitlab-profile/-/blob/master/docs/common/testing-guidelines.md)
 
 **Project-specific approach:**
 - This is primarily a documentation repository with reference code
@@ -83,7 +91,11 @@ See [Testing Guidelines](https://gitlab.com/smart-assets.io/gitlab-profile/-/blo
 
 ## Security Considerations
 
-See [Security Best Practices](https://gitlab.com/smart-assets.io/gitlab-profile/-/blob/master/docs/common/security-best-practices.md) for comprehensive security guidelines.
+**For LLM assistance in multi-repo workspace:**
+See [Security Best Practices](../top-level-gitlab-profile/docs/common/security-best-practices.md)
+
+**For reference (GitLab):**
+[Security Best Practices](https://gitlab.com/smart-assets.io/gitlab-profile/-/blob/master/docs/common/security-best-practices.md)
 
 **Project-specific considerations:**
 - Document security patterns for purse implementations
